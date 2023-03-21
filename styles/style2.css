@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 200px;
+    /* adjust the height of the header as needed */
+}
+
+body {
+    background-image: url(assets/Tripulacao_inicial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    /* adjust the maximum height of the image as needed */
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__navegacao {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu__navegacao__valores {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 3px solid black;
+    border-radius: 4px;
+    color: black;
+}
+
+.alinhamento__texto__imagem {
+    display: flex;
+    margin-top: 80px;
+    gap: 40px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.imagem__tela__principal {
+    max-height: 400px;
+    height: auto;
+    width: auto;
+    border-radius: 100px;
+    margin-top: 30px;
+
+}
+
+.titulo {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.texto__geral {
+    text-align: justify;
+}

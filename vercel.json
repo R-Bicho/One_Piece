@@ -1,8 +1,15 @@
 {
-    "rewrites": [
+    "version": 2,
+    "builds": [
         {
-            "source": "/(.*)",
-            "destination": "/"
+            "scr": "./gerenciador.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "scr": "/(.*)",
+            "dest": "/"
         }
     ]
 }

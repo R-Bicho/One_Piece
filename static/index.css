@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    height: 1%;
+    /* adjust the height of the header as needed */
+}
+
+body {
+    background: rgb(203, 236, 253);
+    background: linear-gradient(180deg, rgba(203, 236, 253, 1) 24%, rgba(131, 210, 247, 1) 45%);
+
+}
+
+.cabecalho {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+    /* adjust the maximum height of the image as needed */
+    margin: 0 auto;
+    width: 40%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__navegacao {
+    display: flex;
+    margin-top: 1.25rem;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 4%;
+    margin-right: 4%;
+    flex-wrap: wrap;
+}
+
+.menu__navegacao__valores {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 0.1875rem solid black;
+    border-radius: 0.25rem;
+    color: black;
+    font-weight: 600;
+
+}
+
+.titulo {
+    font-size: 2.8rem;
+    margin-bottom: 0.9375rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.alinhamento__sinopse {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.texto__sinopse {
+    font-size: 2rem;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 550;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.imagem__tela__sinopse {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 92%;
+}
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 6.25rem;
+    text-align: center;
+    line-height: 6.25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+@media (max-width: 935px) {
+    .menu__navegacao__valores {
+        font-size: 1.5rem;
+        border-bottom: 0.15rem solid black;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .texto__sinopse {
+        font-size: 1.5rem;
+    }
+
+    .imagem__tela__sinopse {
+        width: 85%;
+    }
+
+}
+
+@media (max-width: 735px) {
+    .menu__navegacao__valores {
+        font-size: 1rem;
+        border-bottom: 0.12rem solid black;
+    }
+
+    .titulo {
+        font-size: 1.3rem;
+    }
+
+    .texto__sinopse {
+        font-size: 1rem;
+    }
+
+    .imagem__tela__sinopse {
+        width: 75%;
+    }
+
+    footer {
+        font-size: 0.6rem;
+    }
+
+}
+
+@media (max-width: 485px) {
+    .menu__navegacao__valores {
+        font-size: 0.75rem;
+        border-bottom: 0.12rem solid black;
+    }
+
+    .titulo {
+        font-size: 1rem;
+    }
+
+    .texto__sinopse {
+        font-size: 0.75rem;
+    }
+
+    .imagem__tela__sinopse {
+        width: 65%;
+    }
+
+    footer {
+        font-size: 0.4rem;
+    }
+
+
+}
+
+@media (max-width: 280px) {
+    .menu__navegacao__valores {
+        font-size: 0.65rem;
+        border-bottom: 0.085rem solid black;
+        border-radius: 0.18rem;
+    }
+
+    .titulo {
+        font-size: 0.8rem;
+    }
+
+    .texto__sinopse {
+        font-size: 0.65rem;
+    }
+
+    .imagem__tela__sinopse {
+        width: 65%;
+    }
+
+    footer {
+        font-size: 0.4rem;
+    }
+
+}

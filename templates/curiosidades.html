@@ -1,0 +1,28 @@
+{% extends "template.html" %}
+{%block link%}
+<link rel="stylesheet" href="{{ url_for('static', filename='curiosidade.css') }}">
+{%endblock%}
+
+{%block conteudo%}
+<h1 class="titulo">{{titulo}}</h1>
+<section class="alinhamento__sinopse">
+    <h2 class="subtitulo"><b>{{subtitulo0}}</b></h2>
+    <p class="texto__sinopse">{{texto1}}</p>
+
+    <h2 class="subtitulo"><b>{{subtitulo1}}</b></h2>
+    <p class="texto__sinopse">{{texto2}}.</p>
+
+    <h2 class="subtitulo"><b>{{subtitulo2}}</b></h2>
+    <p class="texto__sinopse">{{texto3}}</p>
+
+    <h2 class="subtitulo"><b>{{subtitulo3}}</b></h2>
+    <p class="texto__sinopse">{{texto4}}</p>
+
+    <h2 class="subtitulo"><b>{{subtitulo4}}</b></h2>
+    <p class="texto__sinopse">{{texto5}}</p>
+
+    <img class="imagem__tela__sinopse" src="{{ url_for('static', filename='pagina principal1.jpg') }}">
+</section>
+</main>
+<footer>&copy; One Piece website create by Rogério Bicho</footer>
+{%endblock%}

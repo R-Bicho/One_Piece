@@ -1,0 +1,83 @@
+{% extends "template.html" %}
+
+{%block link%}
+<link rel="stylesheet" href="{{ url_for('static', filename='personagem.css') }}">
+{%endblock%}
+
+{%block conteudo%}
+
+<section class="alinhamento__personagens">
+    <h2 class="subtitulo">{{subtitulo0}}</h2>
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto0}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='cartaz_luffy.png') }}"
+            alt="cartaz do luffy">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo1}}</h2>
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto1}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='cartaz_zoro.png') }}"
+            alt="cartaz do Zoro">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo2}}</h2>
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto2}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='cartaz_sanji.jpg') }}"
+            alt="cartaz do Sanji">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo3}}</h2>
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto3}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='cartaz_nami.jpg') }}"
+            alt="cartaz da Nami">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo4}}</h2>
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto4}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='cartaz_usopp.jpg') }}"
+            alt="cartaz do Usoop">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo5}}</h2>
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto5}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='cartaz_chopper.jpg') }}"
+            alt="cartaz do Chopper">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo6}}</h2>
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto6}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='cartaz_robin.jpg') }}"
+            alt="cartaz da Robin">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo7}}</h2>
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto7}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='cartaz_franky.jpg') }}"
+            alt="cartaz do Franky">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo8}}</h2>
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto8}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='cartaz_brook.jpg') }}"
+            alt="cartaz do Brook">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo9}}</h2>
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto9}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='cartaz_jinbei.jpg') }}"
+            alt="cartaz do Jinbei">
+    </section>
+
+</section>
+</main>
+<footer>&copy; One Piece website create by Rogério Bicho</footer>
+{%endblock%}

@@ -1,0 +1,17 @@
+{% extends "template.html" %}
+
+{%block link%}
+<link rel="stylesheet" href="{{ url_for('static', filename='historia.css') }}">
+{%endblock%}
+
+
+{%block conteudo%}
+<section class="alinhamento__imagem__historia">
+    <h1 class="titulo">{{titulo}}</h1>
+    <p class="texto__historia">{{texto_pagina}}</p>
+
+    <img class="imagem__tela__principal" src="{{ url_for('static', filename='pagina principal.jpg') }}">
+</section>
+</main>
+<footer>&copy; One Piece website create by Rogério Bicho</footer>
+{%endblock%}

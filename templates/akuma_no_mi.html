@@ -1,0 +1,60 @@
+{% extends "template.html" %}
+
+{%block link%}
+<link rel="stylesheet" href="{{ url_for('static', filename='personagem.css') }}">
+{%endblock%}
+
+{%block conteudo%}
+<section class="alinhamento__personagens">
+    <h2 class="subtitulo">{{subtitulo0}}</h2>
+    <p class="Texto__personagens"><b>Tipo:</b> {{tipo_fruta0}}</p>
+    <p class="Texto__personagens"><b>Quem consumiu:</b>{{nome0}}</p>
+
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto0}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='RR.jpg') }}" alt="Gomu Gomu no Mi">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo1}}</h2>
+    <p class="Texto__personagens"><b>Tipo:</b> {{tipo_fruta0}}</p>
+    <p class="Texto__personagens"><b>Quem consumiu:</b>{{nome1}}</p>
+
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto1}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='hana_hana_no_mi.png') }}"
+            alt="cartaz do Zoro">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo2}}</h2>
+    <p class="Texto__personagens"><b>Tipo:</b> {{tipo_fruta1}}</p>
+    <p class="Texto__personagens"><b>Quem consumiu:</b>{{nome2}}</p>
+
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto2}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='mera_mera.jpg') }}"
+            alt="cartaz do Sanji">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo3}}</h2>
+    <p class="Texto__personagens"><b>Tipo:</b> {{tipo_fruta1}}</p>
+    <p class="Texto__personagens"><b>Quem consumiu:</b>{{nome3}}</p>
+
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto3}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='magu_magu.jpg') }}"
+            alt="cartaz da Nami">
+    </section>
+
+    <h2 class="subtitulo">{{subtitulo4}}</h2>
+    <p class="Texto__personagens"><b>Tipo:</b> {{tipo_fruta1}}</p>
+    <p class="Texto__personagens"><b>Quem consumiu:</b>{{nome4}}</p>
+
+    <section class="personagem__imagem__texto">
+        <p class="Texto__personagens">{{texto4}}</p>
+        <img class="personagem__ajuste__imagem" src="{{ url_for('static', filename='yami.jpg') }}"
+            alt="cartaz do Usoop">
+    </section>
+</section>
+</main>
+<footer>&copy; One Piece website create by Rogério Bicho</footer>
+{%endblock%}

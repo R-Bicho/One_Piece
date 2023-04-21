@@ -212,5 +212,5 @@ def curiosidade():
                            texto4=curiosidade4,
                            texto5=curiosidade5,
                            )
-
-app.run(debug=True)
+if __name__=='__main__':
+    app.run(debug=True)
